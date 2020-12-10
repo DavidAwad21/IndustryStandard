@@ -2,9 +2,11 @@
 	Property: value;
 }*/
 body{
-	/*background-image: url(https://cdn.pixabay.com/photo/2016/06/05/07/59/stars-1436950_1280.jpg);
-	background-size: cover;*/
-	background-color: rgb(5,27,56);
+	background: url(https://i.pinimg.com/originals/a5/3c/c0/a53cc0a1af1b604d39fc9ab437c253fd.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 body.German{
@@ -38,11 +40,18 @@ body.German{
 	flex-wrap: wrap;
 	justify-content: center;
 }
-.Background{
+.Contentimg{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.gif{
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
 
 	
 /*img{
@@ -55,22 +64,57 @@ img:hover{
 }
 h1{
 	color:rgb(170,146,57);
+	font-size: 80px;
+	text-align: center;
+	text-decoration: underline;
+  	font-family: 'Poiret One', cursive;
+	font-style: italic;
+
+}
+h2{
+	color:rgb(170,146,57);
 	font-size: 65px;
 	text-align: center;
   	font-family: 'Poiret One', cursive;
 	font-style: italic;
 
 }
-h2
+h3
 {
-	color:rgb(0,0,0);
+	color:rgb(128,31,21);
 	font-size: 50px;
 	text-align: center;
-	border: 5px solid rgb(85,67,0);
+	background-color: (0,0,0);
 	font-family: 'Poiret One', cursive;
 	font-style: italic;
 }
-h3
+h4
+{
+	color:rgb(132,161,54);
+	font-size: 40px;
+	text-align: center;
+	border-style: solid;
+	border-color: rgb(81,0,11);
+	font-family: 'Poiret One', cursive;
+	font-style: bold;
+}
+h5
+{
+	color:rgb(177,0,0);
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-style: italic;
+}
+h6
+{
+	color:rgb(177,0,0);
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-style: italic;
+}
+form
 {
 	color:rgb(177,0,0);
 	font-size: 40px;
