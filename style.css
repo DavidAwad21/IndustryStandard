@@ -1,0 +1,82 @@
+/*Selector {
+	Property: value;
+}*/
+body{
+	/*background-image: url(https://cdn.pixabay.com/photo/2016/06/05/07/59/stars-1436950_1280.jpg);
+	background-size: cover;*/
+	background-color: rgb(5,27,56);
+
+}
+body.German{
+	background-image: url(https://d1f7geppf3ca7.cloudfront.net/origin/523870/1533723782347_germany-500x302.gif);
+}
+
+.GermanCars{
+
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.AmericanCars{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.JapaneseCars{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.ItalianCars{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.SwedishCars{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.Background{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+	
+/*img{
+	width:300px;
+	height:200px;
+	transition: all 1s;
+}*/
+img:hover{
+	transform: scale(1.1);
+}
+h1{
+	color:rgb(170,146,57);
+	font-size: 65px;
+	text-align: center;
+  	font-family: 'Poiret One', cursive;
+	font-style: italic;
+
+}
+h2
+{
+	color:rgb(0,0,0);
+	font-size: 50px;
+	text-align: center;
+	border: 5px solid rgb(85,67,0);
+	font-family: 'Poiret One', cursive;
+	font-style: italic;
+}
+h3
+{
+	color:rgb(177,0,0);
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-style: italic;
+}
+
+
